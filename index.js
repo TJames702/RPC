@@ -5,19 +5,17 @@ const rpc = new RPC.Client({
 
 rpc.on("ready", () => {
     rpc.setActivity({
-        details: "200 Subscribers Road",
-        state: "Creating Discord bots",
+        details: "Moon Bot",
+        state: "Bot onwer: Professor",
         startTimestamp: new Date(),
         largeImageKey: "large",
-        largeImageText: "Sub 2 UltraX",
-        smallImageKey: "small",
-        smallImageText: "Road to 200 subs",
-        buttons : [{label : "Subscribe" , url : "https://youtube.com/c/UltraX1"},{label : "Discord" , url : "https://discord.gg/z6bpqrKj"}]
+        largeImageText: "RPC",
+        buttons : [{label : "Subscribe" , url : "https://youtube.com/channel/UCbF8elQvv8T5a0QDyoP4rDA"},{label : "Discord" , url : "https://discord.gg/eWEQZJ9X"}]
     })
 
     console.log("successfully activated the RPC")
 })
 
 rpc.login({
-    clientId: '810093153951547392'
+    clientId: '782382708193493024'
 })
